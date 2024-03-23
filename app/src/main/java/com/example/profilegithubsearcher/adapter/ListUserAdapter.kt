@@ -29,7 +29,7 @@ class ListUserAdapter(private val listUser: ArrayList<User>): RecyclerView.Adapt
         holder.binding.apply {
             tvUsername.text = users.login
             val avatar = users.avatarUrl
-            Utils.GlideBinding(holder.itemView.context, avatar, ivAvatar)
+            Utils.glideBinding(holder.itemView.context, avatar, ivAvatar)
             root.setOnClickListener {
                 onItemClickCallback.onItemClicked(listUser[holder.adapterPosition])
             }

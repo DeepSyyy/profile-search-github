@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
     private fun setUpSearchBar(binding: ActivityMainBinding){
         with(binding){
             searchView.setupWithSearchBar(searchBar)
-            searchView.editText.setOnEditorActionListener { textView, actionId, event ->
+            searchView.editText.setOnEditorActionListener { _, _, _ ->
                 searchBar.setText(searchView.text)
                 searchView.hide()
                 mainViewModel.searchUser(

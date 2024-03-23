@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModel
 import com.example.profilegithubsearcher.data.repsonse.User
 import com.example.profilegithubsearcher.data.repsonse.UserSearchResponse
 import com.example.profilegithubsearcher.data.retrofit.ApiConfig
-import com.example.profilegithubsearcher.util.Utils.Companion.TOKEN
 import retrofit2.Call
 import retrofit2.Response
 import retrofit2.Callback
