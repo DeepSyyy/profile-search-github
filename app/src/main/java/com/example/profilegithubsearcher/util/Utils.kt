@@ -11,6 +11,6 @@ class Utils {
             Glide.with(context).load(url).apply(RequestOptions.centerCropTransform()).into(imageView)
         }
 
-        const val TOKEN = "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"
+        const val TOKEN = ""
     }
 }
