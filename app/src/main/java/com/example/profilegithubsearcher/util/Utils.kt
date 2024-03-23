@@ -11,6 +11,6 @@ class Utils {
             Glide.with(context).load(url).apply(RequestOptions.centerCropTransform()).into(imageView)
         }
 
-        const val TOKEN = ""
+        const val TOKEN = "ini token kamu ya"
     }
 }
