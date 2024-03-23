@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    light mode-->
+    <color name="lightPrimary">#235fa6</color>
+    <color name="lightSecondary">#295caf</color>
+    <color name="lightTeritiary">#225fa6</color>
+    <color name="white">#ffffff</color>
+    <color name="lightContainer">#d5e3ff</color>
+    <color name="lightOnPrimaryContainer">#001b3b</color>
+    <color name="surface">#fdfbff</color>
+    
+<!--    dark mode-->
+    <color name="darkPrimary">#a7c8ff</color>
+    <color name="darkSecondary">#adc6ff</color>
+    <color name="darkTeritiary">#a7c8ff</color>
+    <color name="darkOnPrimary">#003060</color>
+    <color name="darkOnSecondary">#002e69</color>
+    <color name="darkContainer">#004788</color>
+    <color name="darkSecondaryContainer">#004494</color>
+    <color name="darkOnPrimaryContainer">#d5e3ff</color>
+    <color name="darkSurface">#1a1c1e</color>
+</resources>

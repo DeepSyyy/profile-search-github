@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProfileGithubSearcher" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorPrimaryVariant">@color/lightSecondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lightTeritiary</item>
+        <item name="colorSecondaryVariant">@color/lightPrimary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/darkSurface</item>
+        <item name="colorContainer">@color/lightContainer</item>
+        <item name="colorOnSurface">@color/darkSurface</item>
+    </style>
+
+    <style name="Theme.ProfileGithubSearcher" parent="Base.Theme.ProfileGithubSearcher" />
+</resources>

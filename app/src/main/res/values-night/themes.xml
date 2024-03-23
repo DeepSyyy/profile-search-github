@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProfileGithubSearcher" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryVariant">@color/darkSecondary</item>
+        <item name="colorOnPrimary">@color/darkOnPrimary</item>
+        <item name="colorSecondary">@color/darkTeritiary</item>
+        <item name="colorSecondaryVariant">@color/darkPrimary</item>
+        <item name="colorOnSecondary">@color/darkOnSecondary</item>
+        <item name="colorSurface">@color/darkSurface</item>
+        <item name="colorContainer">@color/darkContainer</item>
+        <item name="colorOnSurface">@color/surface</item>
+    </style>
+</resources>
