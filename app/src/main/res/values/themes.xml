@@ -11,6 +11,7 @@
         <item name="colorSurface">@color/darkSurface</item>
         <item name="colorContainer">@color/lightContainer</item>
         <item name="colorOnSurface">@color/darkSurface</item>
+        <item name="colorPrimaryContainer">@color/lightContainer</item>
     </style>
 
     <style name="Theme.ProfileGithubSearcher" parent="Base.Theme.ProfileGithubSearcher" />

@@ -3,6 +3,7 @@ package com.example.profilegithubsearcher.util
 import android.content.Context
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.profilegithubsearcher.BuildConfig
 import com.google.android.material.imageview.ShapeableImageView
 
 class Utils {
@@ -11,6 +12,6 @@ class Utils {
             Glide.with(context).load(url).apply(RequestOptions.centerCropTransform()).into(imageView)
         }
 
-        const val TOKEN = "ini token kamu ya"
+        const val TOKEN = BuildConfig.API_KEY
     }
 }

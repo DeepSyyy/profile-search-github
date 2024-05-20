@@ -7,7 +7,8 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.profilegithubsearcher.ui.follower.FollowersFragment
 import com.example.profilegithubsearcher.ui.following.FollowingFragment
 
-class SectionsPagerAdapter(activity: AppCompatActivity, private val username: String) : FragmentStateAdapter(activity) {
+class SectionsPagerAdapter(activity: AppCompatActivity, private val username: String) :
+    FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
         return 2
     }
@@ -21,6 +22,7 @@ class SectionsPagerAdapter(activity: AppCompatActivity, private val username: St
                     }
                 }
             }
+
             else -> {
                 FollowingFragment().apply {
                     arguments = Bundle().apply {
@@ -31,8 +33,8 @@ class SectionsPagerAdapter(activity: AppCompatActivity, private val username: St
         }
     }
 
-    companion object{
-        const val ARGS_USERNAME= "username"
+    companion object {
+        const val ARGS_USERNAME = "username"
     }
 
 

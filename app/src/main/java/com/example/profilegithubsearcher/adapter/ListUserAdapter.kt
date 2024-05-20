@@ -7,7 +7,8 @@ import com.example.profilegithubsearcher.data.repsonse.User
 import com.example.profilegithubsearcher.databinding.ItemProfileBinding
 import com.example.profilegithubsearcher.util.Utils
 
-class ListUserAdapter(private val listUser: ArrayList<User>): RecyclerView.Adapter<ListUserAdapter.ListViewHolder>() {
+class ListUserAdapter(private val listUser: ArrayList<User>) :
+    RecyclerView.Adapter<ListUserAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
     interface OnItemClickCallback {
@@ -18,7 +19,7 @@ class ListUserAdapter(private val listUser: ArrayList<User>): RecyclerView.Adapt
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val binding = ItemProfileBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return  ListViewHolder(binding)
+        return ListViewHolder(binding)
     }
 
     override fun getItemCount(): Int = listUser.size
@@ -36,7 +37,7 @@ class ListUserAdapter(private val listUser: ArrayList<User>): RecyclerView.Adapt
         }
     }
 
-    fun setOnItemClickCallBack(onItemClickCallback: OnItemClickCallback){
+    fun setOnItemClickCallBack(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
     }
 

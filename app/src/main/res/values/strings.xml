@@ -13,4 +13,7 @@
     <string name="following">Following</string>
     <string name="repos">repos</string>
     <string name="deepsyy">DeepSyy</string>
+    <string name="no_users_found">No users found</string>
+    <string name="favorite">favorite</string>
+    <string name="dark_mode">Dark Mode</string>
 </resources>
